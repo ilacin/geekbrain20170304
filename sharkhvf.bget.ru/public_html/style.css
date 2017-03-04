@@ -1,0 +1,283 @@
+body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	height: 100%;
+	font: 18px/24px Arial, Tahoma, sans-serif;
+}
+html {height: 100%;}
+
+
+
+ol, ul {list-style: none;}
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+a, a:hover {text-decoration: none;}
+
+
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+	display: table;
+}
+.clearfix:after {clear: both;}
+
+.left {float:left;}
+.right {float:right;}
+.text-right {text-align: right;}
+
+.container {
+	background: ;
+	width: 300px;
+	position: fixed;
+	left: 1%;
+	top: 130px;
+	height: ;
+}
+
+h4 { 
+    font-style: normal;
+    font-weight: normal;
+	color: #808080;
+    } 
+	
+	#ad {
+	width:98%;
+	height: 60px;
+	background-color: #FDEAA8;
+	text-align: center;
+	border: 4px dashed #CD5C5C;
+	margin-top: 5px;
+	margin-left: 20px;
+	padding: 10px;
+	font-size:25px;
+}
+
+h1 {
+	color: #C5007F;
+	padding-top: 5px;
+	padding-left: 27px;
+	margin-bottom: 25px;
+}
+
+h3 {
+    margin-bottom: 10px;
+    color: #808080;
+    padding-left : 28px;
+}
+
+
+h6 { 
+    font-style : normal ;
+    font-size : 18px; 
+    font-weight :normal;
+    text-align : left;
+    text-indent : 1em;
+	padding-top: 25px;
+    padding-left : 10px;
+	padding-right: 10px;
+    background-color: #FDEAA8;
+	color:#C5007F;
+    } 
+
+p { 
+    font-style : normal ;
+    font-size : 18px; 
+    font-weight :normal;
+    text-align : left;
+    text-indent : 1em;
+    padding-left : 10px;
+	padding-right: 10px;
+	color:#C5007F;
+    background-color: #FDEAA8;
+    } 
+	
+	
+	
+	.searching {
+	color: #C5007F;
+	position: ;
+	background-color: ;
+}
+
+.searchpane {
+	position: relative;
+	left: 320px;
+	right: 1%;
+	top: 11px;
+	min-height: 200%;
+	min-width: 400px;
+	max-width: 78%;
+	padding-left: px;
+	padding-right: 0px;
+}
+
+#mobilesearch {display: none;}
+
+.text_block{
+	overflow: hidden;
+	color:#C5007F;
+	font-size: 18px;
+	line-height: 24px;
+	min-height: 200px;
+	
+}
+
+.nav,
+#touch-menu {
+	background: #FF00FF;
+}
+.nav li {float: ;}
+.nav li a,
+#touch-menu {
+	display: block;
+	padding: 10px 15px;
+	font-weight: bold;
+	font-size: 14px;
+	color: white;
+}
+.nav li a:hover,
+#touch-menu:hover {
+	background: #515572;
+}
+
+#touch-menu {display: none;}
+
+img {
+	padding:10px 10px 10px 10px;
+	border:1px solid;
+	background-color:#00FFFF;
+	margin:0 10px 0 0;
+}
+
+table {
+	border-collapse:collapse;
+}
+
+th {
+   empty-cells: hide;
+   padding: 4px 7px;
+   background-color:#FFD700;
+}
+
+td {
+	empty-cells: hide;
+	padding: 4px 7px;
+}
+
+li {
+    color: #C5007F;
+}
+
+
+
+
+
+label {
+	cursor:pointer;
+}
+
+#toTop {
+width:100px;
+border:1px solid #ccc;
+background:#f7f7f7;
+text-align:center;
+padding:10px;
+position:fixed;
+bottom:10px; /* отступ кнопки от нижнего края страницы*/
+right:10px;
+cursor:pointer;
+display:none;
+color: #C5007F;
+font-family:verdana;
+font-size:11px;
+}
+
+#searchbuttonmain {
+	width: 200px;
+}
+
+#searchbuttonmobile {
+	width: 200px;
+	height: 70px;
+	border:1px solid #ccc;
+	background:#f7f7f7;
+	text-align:center;
+	color:#C5007F;
+	font-family:;
+	font-size:16px;
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+
+
+@media (max-width: 768px) {
+	.nav {display: none;}
+	.nav li {float: none;}
+	.nav li a {
+		border-top: 1px solid #eee;
+		border-left: 3px solid transparent;
+		background: #808080;
+		color: #s;
+	}
+	.nav li:first-child a {border-top: none;}
+	.nav li a:hover {
+		background: #f0f0f0;
+		color: #C5007F;
+		border-left: 3px solid #515572;
+	}
+	#touch-menu {display: block;}
+	#ad {display: none;}
+	
+	.container {
+	background: ;
+	width: 250px;
+	position: fixed;
+	left: 1%;
+	top: 1px;
+	height: ;
+	margin-bottom: 5px;
+	z-index: 5;
+}
+
+.searchpane {
+	position: relative;
+	left: 1%;
+	right: ;
+	top: px;
+	background: #ffffff;
+	min-height: 200%;
+	min-width: 250px;
+	max-width: 78%;
+	padding-left: px;
+	padding-right: 0px;
+	margin-top: 50px;
+}
+
+h1 {display: none;}
+
+#mainsearch {display: none;}
+
+#mobilesearch {
+	display: block;
+	}
+	
+	iframe {max-width: 100%; height: auto;}
+	
+	img {max-width: 100%; height: auto;}
+	
+	table {max-width: 100%;}
+
+}
+
